@@ -1,0 +1,96 @@
+<html>
+
+<head>
+	<title>Form</title>
+	<style>
+		body {
+			background-image: url("bg.jfif");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body bg text="111111" font-family="Century" align="center">
+
+	<img src="OIP.jfif" height=100 align="right">
+	<br>
+	<h1 align="center">Registration Form</h1>
+	<br>
+	<hr>
+
+	<marquee bgcolor="bbbbbb" scrollamount="20">New updates on <a href="https://youtu.be/dQw4w9WgXcQ?si=FbmUBGLyboBce28F">nitw.ac.in</a></marquee>
+	<hr>
+
+	<form>
+		<pre
+			style="font-size:16">First name:<input type="text" name="firstname">                 Last name:<input type="text" name="lastname"></pre>
+		<br>
+
+		Age:<br>
+		<input type="radio" name="age" id="age1" name="age" value="0-15">
+		<label for="age1">0 to 15</label><br>
+		<input type="radio" name="age" id="age2" name="age" value="16-30">
+		<label for="age2">16 to 30</label>
+		<br><br>
+
+		D.O.B. :
+		<input type="date" name="DOB">
+		<br><br>
+
+		Temporary adress:
+		<input type="text" name="Tadress">
+		<br><br>
+
+		Permanent adress:
+		<input type="text" name="Padress">
+		<br><br>
+
+		Pincode:
+		<input type="number" name="pin">
+		<br><br>
+
+		State:
+		<input type="text" name="state">
+		<br><br>
+
+		Country:
+		<input type="text" name="country">
+		<br><br>
+
+		email:<input type="text" name="email">
+		<br><br>
+
+		Mobile No.:<input type="text" name="MNo">
+		<br><br>
+
+		Gender:<br>
+		<input type="radio" name="gender" id="gender1" name="gender" value="male">
+		<label for="gender1">Male</label>
+		<input type="radio" name="gender" id="gender2" name="gender" value="female">
+		<label for="gender2">Female</label>
+		<input type="radio" name="gender" id="gender3" name="gender" value="other">
+		<label for="gender3">Other</label>
+		<br><br>
+
+		<label for="student">Are you a student?</label>
+		<input type="checkbox" name="student" id="student">
+		<br>
+
+		<label for="course">Subject of interest:</label>
+		<select name="course" id="course">
+			<option value="WP">WP</option>
+			<option value="DSA">DSA</option>
+			<option value="PDS">PDS</option>
+		</select>
+		<br>
+
+		<pre style="font-size:16">     Upload ID proof:<input type="file" id="imageUpload" name="image"</pre>
+
+		<hr>
+		<input type="reset" style="display: inline;">
+		<input type="submit" style="display: inline;">
+	</form>
+</body>
+
+</html>
